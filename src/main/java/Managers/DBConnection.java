@@ -16,6 +16,8 @@ public class DBConnection {
 //   }
 
     public static Connection getConnection() {
+        System.out.println("Chnages");
+
         try {
             Class.forName("org.postgresql.Driver");
             if (connection == null) {
